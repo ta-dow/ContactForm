@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form action="/submit" method="post">
+            <div class="form-group">
+                <section class="content">
+                    <h1>Contact Form</h1>
+                    <br>
+                    <span class="input input--yoshiko">
+                        <input class="input__field input__field--yoshiko" type="text" id="input-1" required/>
+                        <label class="input__label input__label--yoshiko" for="input-1">
+                            <span class="input__label-content input__label-content--yoshiko" data-content="Name">Name</span>
+                        </label>
+                    </span>
+                    <br>
+                    <span class="input input--yoshiko">
+                        <input class="input__field input__field--yoshiko" type="email" id="input-2" required/>
+                        <label class="input__label input__label--yoshiko" for="input-2">
+                            <span class="input__label-content input__label-content--yoshiko" data-content="Email">Email</span>
+                        </label>
+                    </span>
+                    <br>
+                    <span class="input input--yoshiko">
+                        <textarea class="input__field input__field--yoshiko" style="margin: 0" id="autoExpand" maxlength="500" required></textarea>
+                        <label class="input__label input__label--yoshiko" for="input-1">
+                            <span class="input__label-content input__label-content--yoshiko" data-content="Message">Message</span>
+                        </label>
+                    </span>
+                    <br><br>
+                    <button class="codrops-button button--pan">
+                        <span>submit</span>
+                    </button>
+                </section>
+            </div>
+        </form>
+        <script src="classie.js"></script>
+    </body>
+</html>
